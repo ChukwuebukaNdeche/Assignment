@@ -1,0 +1,27 @@
+STEP1: Create a folder in your computer.
+
+STEP2: Open the folder and create a file.
+
+STEP3: Open git bash and go to the root directory "cd .."
+
+STEP4: Open the folder you created in step1 "cd Assignment"
+
+STEP5: Specify your name and email, so that git would know who you are. use the
+       command "git config --global user.name " your username on github" " and for email 
+       use " git config --global user.email " your username on github"" and press enter.
+
+STEP6: Initalize the directory using the command "git init"
+
+STEP7: Add the file using "git add file_name". T o confirm that it is being tracked use "git status".
+
+STEP8: Commit the changes using "git commit -m"my first commit"".
+
+STEP9: Go to your github account and create a repositoy. the name of the repositoy have to be the same 
+       with the folder.
+
+STEP10: Copy the URL that will be created and go to your git bash. Write the command "git remote add origin" and
+        paste the URL on your git bash.
+
+STEP11: Write the command "git branch -M main"to enter the main branch.
+
+STEP11: Write the command "git push -u origin main" to push your local repository to your github repository.  

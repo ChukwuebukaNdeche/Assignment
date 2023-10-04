@@ -1,0 +1,11 @@
+When we set up a repository on github we chose the HTTPS which is the default option.
+This time we use SSH or Secure Socket Shell protocol.To do this we take the following steps.
+ 
+STEP1: Check if the key exist locally using the command "ls -al ~/.ssh". This would list down all the ssh keys in your system.
+
+STEP2: Generate the key if it dosen't exist. you can generate the key with the command "ssh-keygen -trsa -C 'your email'"
+
+STEP3: Add the key to your github account. Copy the content of the public key and go to your github, click on your profile
+       and then click on settings and select ssh key and paste
+
+STEP4: Start pushing commits freely. When you try pushing commit, it will not ask for username and password like it use to.
